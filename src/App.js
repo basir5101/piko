@@ -13,13 +13,13 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Login />}>
-          <Route index element={<Submitted />} />
-          <Route path="submit" element={<Submitted />}>
-          </Route>
+        </Route>
+        <Route path="submit" element={<Submitted />}>
         </Route>
       </Routes>
     </BrowserRouter>
   );
 }
+
 
 export default App;

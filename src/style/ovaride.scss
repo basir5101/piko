@@ -1,0 +1,27 @@
+$primary: #EF5125;
+$secondary: #175C83;
+$success: #fffbf1;
+$warning: #B05420;
+$info: #178345;
+$danger: #B02020;
+
+*{
+     font-family: 'Gotham', sans-serif;
+     font-style: normal;
+}
+
+
+                                                
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+body{
+  background-color: #CFCFCF;
+  padding: 0;
+  margin: 0;
+}
+h6{
+     font-size: 18px !important;
+     font-weight: 700 !important;
+    line-height: 18px !important;
+}
